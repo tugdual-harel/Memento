@@ -213,7 +213,7 @@
 
 #### Bouton
 
-```<html>
+```html
     <button type="button" name="myButton" formtarget="_self">Click me!</button>
 ```
 
@@ -228,158 +228,228 @@
 ```
 
 #### Choix de couleur
+```html
     <input type="color" name="myColorField">
+```
 
 #### Date
+```html
     <input type="date" name="myDateTime">
+```
 
 
 #### Email
+```html
     <input type="email" name="myEmailField">
+```
 
 #### Import de fichier
+```html
     <input type="file" name="myFileBrowser">
+```
 
 
 #### Image bouton
+```html
     <input type="image" src="img/seagull.jpg" name="myImageButton" alt="Submit" width="70" height="70">
+```
 
 #### Choix d'un nombre
+```html
     <input type="number" name="myInput" value="0" min="0" max="100" step="1">
+```
 
 
 #### Choix d'une échelle
+```html
     <input type="range" name="myInput" value="0" min="0" max="100" step="1">
+```
 
 #### Champ mot de passe 
+```html
     <input type="password" name="myPassword">
+```
 
 #### Champ de recherche
+```html
     <input type="search" name="mySearch" placeholder="Search...">
+```
 
 #### Bouton submit
+```html
     <input type="submit" value="Submit" name="mySubmit">
+```
 
 #### Champ téléphone
+```html
     <input type="tel" name="myTel" placeholder="(123) 555-9876">
+```
 
 #### Champ texte
+```html
     <input type="text" name="myText">
+```
 
 
 #### Champ textarea
+```html
     <textarea name="myTextarea" placeholder="Leave a comment." cols="30" rows="15" required></textarea>
+```
 
 
 #### Champ URL
+```html
     <input type="url" name="myUrl">
+```
 
 ### Médias
 
 #### Audio
+```html
     <audio controls>
       <source src="media/sound.ogg" type="audio/ogg">
       <source src="media/sound.mp3" type="audio/mpeg">
       <source src="media/sound.wav" type="audio/wav">
     </audio>
+```
 
 #### Image
+```html
     <img src="img/ottawa.jpg" alt="My Image" height="170" width="390">
+```
 
 
 #### Vidéo
+```html
     <video controls autoplay loop muted height="220" width="390">
       <source src="media/video.mp4" type="video/mp4">
       <source src="media/video.ogv" type="video/ogg">
       <source src="media/video.webm" type="video/webm">
     </video>
+```
 
 
 
 ### Texte
 
 #### Texte bi-directionnel
+```html
     <bdo dir="rtl">This text is backwards!</bdo>
     <bdo dir="rtl">This text is backwards!</bdo>
+```
 
 #### Bold
+```html
     <b>This text is bold.</b>
+```
 
 
 #### Texte cité
+```html
     <cite>This is cited text.</cite>
+```
 
 
 #### Code
+```html
     <code>printf("This is computer code.\n");</code>
+```
 
 
 #### Texte barré
+```html
     <s>This text is incorrect.</s>
+```
 
 
 
 #### Italique
+```html
     <i>This is italic text.</i>
+```
 
 
 
 
 #### Surligné
+```html
     <mark>This is highlighted text.</mark>
+```
 
 
 
 #### Citation courte
+```html
     <q>This is a quote.</q>
+```
 
 #### Citation longue
+```html
     <blockquote>This is a quote.</blockquote>
+```
 
 #### Superscript et subscript
+```html
     <sup>This is superscript.</sup>
     <sub>This is superscript.</sub>
+```
 
 #### Souligné
+```html
     <u>This text is underlined.</u>
+```
 
 
 ### Autres
 
 
 #### Détails
+```html
     <details open>
       <summary>This is a short summary.</summary>
       <p>These are the additional details.</p>
     </details>
+```
 
 
 
 #### Dialog
+```html
     <dialog open>
       <p>Some text...</p>
     </dialog>
+```
 
 
 #### Hyperlink
+```html
     <a href="http://" target="_blank">click here</a>
+```
 
 
 
 #### IFrame
+```html
     <iframe src="http://apple.com" name ="myIframe"></iframe>
+```
 
 
 #### Meter
+```html
     <meter value="0.6">60%</meter>
+```
 
 
 #### Progress bar
+```html
     <progress value="67" max="100">67%</meter>
+```
 
 
 #### Baselink
+```html
     <base href="http://" target="_blank">
+```
 
 
 --------------------------
@@ -500,6 +570,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbLTUzNzIzOTU1NywtMTU5Mj
-U2NjM3MywxMTM2MjI0MzAzXX0=
+b25tYXJrXG4iLCJoaXN0b3J5IjpbNjA1MjI3NDI2LC01MzcyMz
+k1NTcsLTE1OTI1NjYzNzMsMTEzNjIyNDMwM119
 -->
