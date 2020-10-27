@@ -212,6 +212,11 @@
 ### Table Plus open with terminal
     tableplus
 
+### Nano
+
+#### Validation
+    ctrl+o
+
 
 
 --------------------------
@@ -220,7 +225,65 @@
 
 ## HTML
 
+
+### Template de base
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+    <meta name="description" content="This is an example of a meta description.">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+  </body>
+</html>
+```
+
+
+### Metas
+```html
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <meta name="description" content="Description de la page en quelques mots">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="auteur de la page">
+```
+
 ### Formulaire HTML
+```html
+<form role="form">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+```
+
+
+
+#### Vérification adresse mail
+```html
+<input type="text" title="email" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" />
+```
 
 #### Bouton
 ```html
@@ -954,7 +1017,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbLTE4NDY4NjU0NzEsLTg1ND
-g4MjY3NiwtMTMzODk2NTU5OCwtNTM3MjM5NTU3LC0xNTkyNTY2
-MzczLDExMzYyMjQzMDNdfQ==
+b25tYXJrXG4iLCJoaXN0b3J5IjpbMTg5MzY0NDEyNCwtMTg0Nj
+g2NTQ3MSwtODU0ODgyNjc2LC0xMzM4OTY1NTk4LC01MzcyMzk1
+NTcsLTE1OTI1NjYzNzMsMTEzNjIyNDMwM119
 -->
