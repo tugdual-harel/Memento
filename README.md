@@ -223,7 +223,7 @@
 ```
 
 #### Radio button
-```HTML
+```html
     <label><input type="radio" name="myCheckbox"> Check me!</label>
 ```
 
@@ -570,6 +570,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbNjA1MjI3NDI2LC01MzcyMz
-k1NTcsLTE1OTI1NjYzNzMsMTEzNjIyNDMwM119
+b25tYXJrXG4iLCJoaXN0b3J5IjpbLTEzMzg5NjU1OTgsLTUzNz
+IzOTU1NywtMTU5MjU2NjM3MywxMTM2MjI0MzAzXX0=
 -->
