@@ -1,11 +1,18 @@
+
 # MEMENTO
+
+
 
 ## Liens
 
 ### Mediabox
 [https://mediabox.2-ride.com/dashboards/products](https://mediabox.2-ride.com/dashboards/products)
 
+
+
 ## Ruby on Rails
+
+
 
 ### ProductType find_by et création si non existant
 ```ruby
@@ -98,9 +105,15 @@
 1. 
 
 
+
+
 --------------------
 
+
+
 ## Postgresql
+
+
 ### Création d'une table avec Postgresql (similaire à mysql)
 ```sql
     CREATE TABLE persons (
@@ -129,7 +142,7 @@
 ```
 
 ### Création nouveau champ dans postgresql
-```sql
+```psql
     ALTER TABLE nom-de-la-table
     ADD COLUMN nom-de-la-colonne type-de-donnée;
 ```
@@ -146,9 +159,15 @@
       password: secret
 ```
 
+
+
 --------------------------
 
+
+
 ## Git
+
+
 
 ### Création nouvelle branche
 ```git
@@ -167,9 +186,15 @@
     git push -u origin branche-locale
 ```
 
+
+
 -----------------------
 
+
+
 ## Linux
+
+
 
 ### Sublime text open with terminal
     subl
@@ -177,9 +202,191 @@
 ### Table Plus open with terminal
     tableplus
 
+
+
+--------------------------
+
+
+## HTML
+
+### Formulaire HTML
+
+#### Bouton
+
+```<html>
+    <button type="button" name="myButton" formtarget="_self">Click me!</button>
+```
+
+#### Checkbox 
+```html
+    <label><input type="checkbox" name="myCheckbox"> Check me!</label>
+```
+
+#### Radio button
+```HTML
+    <label><input type="radio" name="myCheckbox"> Check me!</label>
+```
+
+#### Choix de couleur
+    <input type="color" name="myColorField">
+
+#### Date
+    <input type="date" name="myDateTime">
+
+
+#### Email
+    <input type="email" name="myEmailField">
+
+#### Import de fichier
+    <input type="file" name="myFileBrowser">
+
+
+#### Image bouton
+    <input type="image" src="img/seagull.jpg" name="myImageButton" alt="Submit" width="70" height="70">
+
+#### Choix d'un nombre
+    <input type="number" name="myInput" value="0" min="0" max="100" step="1">
+
+
+#### Choix d'une échelle
+    <input type="range" name="myInput" value="0" min="0" max="100" step="1">
+
+#### Champ mot de passe 
+    <input type="password" name="myPassword">
+
+#### Champ de recherche
+    <input type="search" name="mySearch" placeholder="Search...">
+
+#### Bouton submit
+    <input type="submit" value="Submit" name="mySubmit">
+
+#### Champ téléphone
+    <input type="tel" name="myTel" placeholder="(123) 555-9876">
+
+#### Champ texte
+    <input type="text" name="myText">
+
+
+#### Champ textarea
+    <textarea name="myTextarea" placeholder="Leave a comment." cols="30" rows="15" required></textarea>
+
+
+#### Champ URL
+    <input type="url" name="myUrl">
+
+### Médias
+
+#### Audio
+    <audio controls>
+      <source src="media/sound.ogg" type="audio/ogg">
+      <source src="media/sound.mp3" type="audio/mpeg">
+      <source src="media/sound.wav" type="audio/wav">
+    </audio>
+
+#### Image
+    <img src="img/ottawa.jpg" alt="My Image" height="170" width="390">
+
+
+#### Vidéo
+    <video controls autoplay loop muted height="220" width="390">
+      <source src="media/video.mp4" type="video/mp4">
+      <source src="media/video.ogv" type="video/ogg">
+      <source src="media/video.webm" type="video/webm">
+    </video>
+
+
+
+### Texte
+
+#### Texte bi-directionnel
+    <bdo dir="rtl">This text is backwards!</bdo>
+    <bdo dir="rtl">This text is backwards!</bdo>
+
+#### Bold
+    <b>This text is bold.</b>
+
+
+#### Texte cité
+    <cite>This is cited text.</cite>
+
+
+#### Code
+    <code>printf("This is computer code.\n");</code>
+
+
+#### Texte barré
+    <s>This text is incorrect.</s>
+
+
+
+#### Italique
+    <i>This is italic text.</i>
+
+
+
+
+#### Surligné
+    <mark>This is highlighted text.</mark>
+
+
+
+#### Citation courte
+    <q>This is a quote.</q>
+
+#### Citation longue
+    <blockquote>This is a quote.</blockquote>
+
+#### Superscript et subscript
+    <sup>This is superscript.</sup>
+    <sub>This is superscript.</sub>
+
+#### Souligné
+    <u>This text is underlined.</u>
+
+
+### Autres
+
+
+#### Détails
+    <details open>
+      <summary>This is a short summary.</summary>
+      <p>These are the additional details.</p>
+    </details>
+
+
+
+#### Dialog
+    <dialog open>
+      <p>Some text...</p>
+    </dialog>
+
+
+#### Hyperlink
+    <a href="http://" target="_blank">click here</a>
+
+
+
+#### IFrame
+    <iframe src="http://apple.com" name ="myIframe"></iframe>
+
+
+#### Meter
+    <meter value="0.6">60%</meter>
+
+
+#### Progress bar
+    <progress value="67" max="100">67%</meter>
+
+
+#### Baselink
+    <base href="http://" target="_blank">
+
+
 --------------------------
 
 ## Markdown
+
+
 
 ### Paragraphes
 
@@ -281,7 +488,11 @@ Voici le lien de [mon Portfolio](https://tugdualharel.fr) pour vous rendre compt
 
     -----------------
 
+
+
 -----------------
+
+
 
 
 <!--stackedit_data:
@@ -289,6 +500,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbLTE1OTI1NjYzNzMsMTEzNj
-IyNDMwM119
+b25tYXJrXG4iLCJoaXN0b3J5IjpbLTUzNzIzOTU1NywtMTU5Mj
+U2NjM3MywxMTM2MjI0MzAzXX0=
 -->
