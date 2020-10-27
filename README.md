@@ -1,7 +1,6 @@
 
 # MEMENTO
 
-
 ## Sommaire
 
 * Liens [#link](https://denikine.github.io/Memento/#liens)
@@ -218,12 +217,12 @@
 --------------------------
 
 
+
 ## HTML
 
 ### Formulaire HTML
 
 #### Bouton
-
 ```html
     <button type="button" name="myButton" formtarget="_self">Click me!</button>
 ```
@@ -248,7 +247,6 @@
     <input type="date" name="myDateTime">
 ```
 
-
 #### Email
 ```html
     <input type="email" name="myEmailField">
@@ -259,7 +257,6 @@
     <input type="file" name="myFileBrowser">
 ```
 
-
 #### Image bouton
 ```html
     <input type="image" src="img/seagull.jpg" name="myImageButton" alt="Submit" width="70" height="70">
@@ -269,7 +266,6 @@
 ```html
     <input type="number" name="myInput" value="0" min="0" max="100" step="1">
 ```
-
 
 #### Choix d'une échelle
 ```html
@@ -301,19 +297,19 @@
     <input type="text" name="myText">
 ```
 
-
 #### Champ textarea
 ```html
     <textarea name="myTextarea" placeholder="Leave a comment." cols="30" rows="15" required></textarea>
 ```
-
 
 #### Champ URL
 ```html
     <input type="url" name="myUrl">
 ```
 
+
 ### Médias
+
 
 #### Audio
 ```html
@@ -329,7 +325,6 @@
     <img src="img/ottawa.jpg" alt="My Image" height="170" width="390">
 ```
 
-
 #### Vidéo
 ```html
     <video controls autoplay loop muted height="220" width="390">
@@ -343,6 +338,8 @@
 
 ### Texte
 
+
+
 #### Texte bi-directionnel
 ```html
     <bdo dir="rtl">This text is backwards!</bdo>
@@ -354,40 +351,30 @@
     <b>This text is bold.</b>
 ```
 
-
 #### Texte cité
 ```html
     <cite>This is cited text.</cite>
 ```
-
 
 #### Code
 ```html
     <code>printf("This is computer code.\n");</code>
 ```
 
-
 #### Texte barré
 ```html
     <s>This text is incorrect.</s>
 ```
-
-
 
 #### Italique
 ```html
     <i>This is italic text.</i>
 ```
 
-
-
-
 #### Surligné
 ```html
     <mark>This is highlighted text.</mark>
 ```
-
-
 
 #### Citation courte
 ```html
@@ -422,8 +409,6 @@
     </details>
 ```
 
-
-
 #### Dialog
 ```html
     <dialog open>
@@ -431,31 +416,25 @@
     </dialog>
 ```
 
-
 #### Hyperlink
 ```html
     <a href="http://" target="_blank">click here</a>
 ```
-
-
 
 #### IFrame
 ```html
     <iframe src="http://apple.com" name ="myIframe"></iframe>
 ```
 
-
 #### Meter
 ```html
     <meter value="0.6">60%</meter>
 ```
 
-
 #### Progress bar
 ```html
     <progress value="67" max="100">67%</meter>
 ```
-
 
 #### Baselink
 ```html
@@ -464,6 +443,400 @@
 
 
 --------------------------
+
+
+## CSS
+
+
+### Animation
+
+
+#### Animation
+```css
+animation: myMove 2s linear 0s 1 normal;
+```
+```css
+@keyframes myMove {
+    0% { left: 0px; }
+    100% { left: 200px; }
+}
+```
+
+
+### Background
+
+
+#### Background Color
+```css
+background-color: #ff0000;
+```
+
+
+
+#### Background Gradient
+```css
+background: linear-gradient(123deg, rgba(0, 0, 0, 0.79), rgba(255, 255, 255, 0.45));
+```
+
+
+
+#### Background Image
+```css
+background: #000000 url(img/ottawa.jpg) repeat left top;
+background-size: cover;
+```
+
+
+
+### Border
+
+
+#### Border
+* Bordure uniforme
+```css
+border: 2px solid #000000;
+border: 2px dotted #000000;
+border: 2px dashed #000000;
+border: 2px double #000000;
+border: 2px groove #000000;
+border: 2px ridge #000000;
+border: 2px inset #000000;
+border: 2px outset rgba(0, 0, 0, 0.72);
+```
+* Côtés différents
+```css
+border-left: 28px outset rgba(0, 0, 0, 0.72);
+border-top: 2px solid rgba(0, 0, 0, 1);
+border-right: 2px solid rgba(0, 0, 0, 1);
+border-bottom: 2px solid rgba(0, 0, 0, 1);
+```
+
+
+#### Border Image
+* Stretch
+```css
+border: 15px solid transparent;
+-webkit-border-image: url('img/border-image.png') 30 30 stretch;
+```
+* Repeat
+```css
+border: 15px solid transparent;
+-webkit-border-image: url('img/border-image.png') 30 30 repeat;
+```
+
+
+
+#### Border Radius
+* Radius uniforme
+```css
+border-radius: 28px;
+```
+* Radius différents
+```css
+border-radius: 43px 28px 76px 55px;
+```
+
+
+#### Box resize
+```css
+resize: both;
+overflow: auto
+```
+
+
+#### Box shadow
+```css
+box-shadow: 4px 4px 15px 1px #000000;
+```
+
+
+#### Outline
+```css
+outline: 4px solid rgba(255, 247, 13, 0.64);
+```
+
+
+
+#### Overflow (X,Y)
+```css
+overflow: auto;
+overflow: visible;
+overflow: hidden;
+overflow: scroll;
+```
+
+
+#### Visiblity
+```css
+visibility: visible;
+visibility: hidden;
+```
+
+
+
+### Color
+
+#### Opacity
+```css
+opacity: 0.62;
+```
+
+
+
+### Filter
+
+
+#### Blur
+```css
+-webkit-filter: blur(4px);
+filter: blur(4px);
+```
+
+
+#### Brightness
+```css
+-webkit-filter: brightness(2.7);
+filter: brightness(2.7);
+```
+
+
+#### Contrast
+```css
+-webkit-filter: contrast(2.7);
+filter: contrast(2.7);
+```
+
+
+
+#### Grayscale
+```css
+-webkit-filter: grayscale(0.58);
+filter: grayscale(0.58);
+```
+
+
+#### Hue-rotate
+```css
+-webkit-filter: hue-rotate(180deg);
+filter: hue-rotate(180deg);
+```
+
+
+#### Invert
+```css
+-webkit-filter: invert(0.88);
+filter: invert(0.88);
+```
+
+
+#### Saturate
+```css
+-webkit-filter: saturate(5);
+filter: saturate(5);
+```
+
+
+
+#### Sepia
+```css
+-webkit-filter: sepia(1);
+filter: sepia(1);
+```
+
+
+
+### Layout
+
+
+#### Columns
+```css
+-moz-column-count: 2;
+-webkit-column-count: 2;
+column-count: 2;
+```
+
+
+
+#### Display
+```css
+display: block;
+display: inline;
+display: inline-block;
+display: list-item;
+display: table;
+display: none;
+```
+
+
+### List
+
+#### List style
+```css
+list-style: disc inside;
+list-style: decimal inside;
+list-style: upper-latin inside;
+list-style: upper-roman outside;
+```
+
+
+
+### Miscellaneous
+
+#### Cursor
+```css
+cursor: default;
+cursor: pointer;
+cursor: col-resize;
+cursor: grab;
+cursor: grabbing;
+cursor: nw-resize;
+```
+
+
+
+### Text
+
+#### Letter spacing
+```css
+letter-spacing: 13px;
+```
+
+
+#### Line height
+```css
+line-height: 2;
+```
+
+
+
+#### Tab size
+```css
+-moz-tab-size: 8;
+-o-tab-size: 8;
+tab-size: 8;
+```
+
+
+
+#### Text align
+```css
+text-align: left;
+text-align: center;
+text-align: right;
+text-align: justify;
+```
+
+
+#### Text decoration
+```css
+text-decoration: none;
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: line-through;
+```
+
+
+#### Text indent
+```css
+text-indent: 17px;
+```
+
+
+
+#### Text shadow
+```css
+text-shadow: 2px 2px 7px rgba(56, 27, 27, 0.7);
+```
+
+
+
+#### Text transform
+```css
+text-transform: capitalize;
+text-transform: uppercase;
+text-transform: lowercase;
+```
+
+
+
+#### White space
+```css
+white-space: normal;
+white-space: nowrap;
+white-space: pre;
+white-space: pre-line;
+white-space: pre-wrap;
+```
+
+
+#### Word break
+```css
+word-break: break-all;
+word-break: normal;
+word-break: keep-all;
+```
+
+
+#### Word spacing
+```css
+word-spacing: 30px;
+```
+
+
+#### Word wrap
+```css
+word-wrap: normal;
+word-wrap: break-word;
+```
+
+
+
+### Transform
+
+#### Perspective
+* Elément parent
+```css
+position: relative;
+-webkit-perspective: 150px;
+perspective: 150px;
+```
+* Elément enfant
+```css
+-webkit-transform: rotateX(10deg) rotateY(-5deg);
+transform: rotateX(10deg) rotateY(-5deg);
+```
+
+
+
+#### Transform
+```css
+
+```
+
+
+
+### Transition
+
+#### Transition
+```css
+-webkit-transform: scale(1) rotate(2deg) skewY(-5deg) skewX(10deg);
+transform: scale(1) rotate(2deg) skewY(-5deg) skewX(10deg);
+```
+
+
+
+
+
+
+
+
+
+
+
+--------------------------
+
+
+
 
 ## Markdown
 
@@ -581,7 +954,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbLTg1NDg4MjY3NiwtMTMzOD
-k2NTU5OCwtNTM3MjM5NTU3LC0xNTkyNTY2MzczLDExMzYyMjQz
-MDNdfQ==
+b25tYXJrXG4iLCJoaXN0b3J5IjpbLTE4NDY4NjU0NzEsLTg1ND
+g4MjY3NiwtMTMzODk2NTU5OCwtNTM3MjM5NTU3LC0xNTkyNTY2
+MzczLDExMzYyMjQzMDNdfQ==
 -->
