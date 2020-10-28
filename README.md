@@ -70,6 +70,11 @@
     end_time = Time.now
     puts "Time elapsed: #{end_time - start_time}s"
 ```
+* Flatten
+```ruby
+array1 = (array2 + array3).flatten
+# dans une addtion d'arrays met les 2 arrays au même niveau : aps d'arrays dans un array
+```
 * If
 ```ruby
     product_feature_array.each do |couple|
@@ -93,6 +98,17 @@
 * Langue
 ```ruby
     I18n.locale = :fr
+```
+* **Case**
+```ruby
+    case object
+    when condition
+      
+    when condition
+
+    else
+      
+    end
 ```
 * Mode édition postgresql
 ```bash
@@ -366,7 +382,8 @@ rails generate model Post name: string title: string
 * Migration
 ```ruby
 rails db:migrate
-# runs the migration of a model and ist attributes
+# runs the migration of a model and its attributes
+# realncer le serveur après
 
 rails generate migration migration_description
 # easiest way to chang something in the bdd schema is to generate the migration
@@ -579,8 +596,29 @@ string[position]
     git status
     git commit -am "indication de la modif"
     git push
-    git push -u origin branche-locale
 ```
+
+### Merge branche locale avec branche develop
+```git
+    git status
+    git checkout branche-locale
+    git merge develop
+    git push
+    git checkout develop
+    git merge branche-locale
+    git push
+```
+
+-----------------------
+
+## Sublime Text
+
+#### Recherche de fichier
+```bash
+ctrl+P
+```
+
+
 
 
 -----------------------
@@ -1124,6 +1162,73 @@ transform: rotateX(10deg) rotateY(-5deg);
 transform: scale(1) rotate(2deg) skewY(-5deg) skewX(10deg);
 ```
 
+---------------------------
+
+## PHP
+### PHP basics
+* Including PHP in a file
+```php
+<?php // place PHP code here ?>
+```
+* Writing comments
+```php
+// ceci est un commentaire sur une seule ligne
+# ceci est un commentaire sur une seule ligne
+/* ceci est un
+commentaire sur
+plusieurs lignes */
+```
+* Outputting data
+```php
+<?php echo "<h1>PHP Cheat Sheet</h1>"; ?>
+```
+* Writing PHP functions
+```php
+function NameOfTheFunction() {
+  // place PHP code here
+}
+```
+
+### Variables and constants
+* Defining variables
+```php
+<?php
+  $BlogPostTitle = "PHP Cheat Sheet";
+?>
+```
+* Types oof data
+ * Integers
+ * Floats
+ * Strings
+ * Boolean values
+ * Arrays
+ * Objects
+ * Resources
+ * NULL
+* Variable scope
+```php
+function myFunction() {
+  global $a, $b;
+  $b = $a - $b;
+}
+```
+* Predefined variables
+```php
+$GLOBALS
+//access global variables from anywhere inside the php script
+$_SERVER
+//contains information about the location of headers, paths and scripts
+$_GET
+//can collect data that was sint in the URL or submitted in an HTML form
+$_POST
+//used to gather data from an HTML form and to apss variables
+$_REQUEST
+//also collects data after submitting an HTML form
+```
+* Variable-handling functions
+
+
+
 --------------------------
 
 ## Markdown
@@ -1191,8 +1296,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbLTE0NDk0MjIxNzIsMjA1Mz
-UyODAxMywtNDk3Nzk4NzQ5LDE3ODM5MDkxMywxODkzNjQ0MTI0
-LC0xODQ2ODY1NDcxLC04NTQ4ODI2NzYsLTEzMzg5NjU1OTgsLT
-UzNzIzOTU1NywtMTU5MjU2NjM3MywxMTM2MjI0MzAzXX0=
+b25tYXJrXG4iLCJoaXN0b3J5IjpbLTYyNTE1MDE2MSwtMTQ0OT
+QyMjE3MiwyMDUzNTI4MDEzLC00OTc3OTg3NDksMTc4MzkwOTEz
+LDE4OTM2NDQxMjQsLTE4NDY4NjU0NzEsLTg1NDg4MjY3NiwtMT
+MzODk2NTU5OCwtNTM3MjM5NTU3LC0xNTkyNTY2MzczLDExMzYy
+MjQzMDNdfQ==
 -->
