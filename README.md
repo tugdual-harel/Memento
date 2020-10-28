@@ -17,17 +17,19 @@
 
 ## Liens
 * Stack Edit
-[https://stackedit.io/app#](https://stackedit.io/app#)
+[https://stackedit.io/app#](https://stackedit.io/app#){.btn .btn-default}
 * Memento online
-[https://denikine.github.io/Memento/](https://denikine.github.io/Memento/)
+[https://denikine.github.io/Memento/](https://denikine.github.io/Memento/){.btn .btn-sucess}
 * Mediabox
-[https://mediabox.2-ride.com/dashboards/products](https://mediabox.2-ride.com/dashboards/products)
+[https://mediabox.2-ride.com/dashboards/products](https://mediabox.2-ride.com/dashboards/products){.btn .btn-primary}
 * Mediabox Github
-[https://github.com/bsignoret2/2ride-mediabox](https://github.com/bsignoret2/2ride-mediabox)
+[https://github.com/bsignoret2/2ride-mediabox](https://github.com/bsignoret2/2ride-mediabox){.btn .btn-default}
 * Convert HTML to HAML
-[https://htmltohaml.com/](https://htmltohaml.com/)
+[https://htmltohaml.com/](https://htmltohaml.com/){.btn .btn-info}
 * Ultimate Website Generator
-[https://webcode.tools/](https://webcode.tools/)
+[https://webcode.tools/](https://webcode.tools/){.btn .btn-warning}
+* GoFile
+[https://gofile.io/uploadFiles](https://gofile.io/uploadFiles){.btn .btn-default}
 
 ---------------------------------
 
@@ -1189,8 +1191,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbMjA1MzUyODAxMywtNDk3Nz
-k4NzQ5LDE3ODM5MDkxMywxODkzNjQ0MTI0LC0xODQ2ODY1NDcx
-LC04NTQ4ODI2NzYsLTEzMzg5NjU1OTgsLTUzNzIzOTU1NywtMT
-U5MjU2NjM3MywxMTM2MjI0MzAzXX0=
+b25tYXJrXG4iLCJoaXN0b3J5IjpbLTIwNDM4MjQ3NjIsMjA1Mz
+UyODAxMywtNDk3Nzk4NzQ5LDE3ODM5MDkxMywxODkzNjQ0MTI0
+LC0xODQ2ODY1NDcxLC04NTQ4ODI2NzYsLTEzMzg5NjU1OTgsLT
+UzNzIzOTU1NywtMTU5MjU2NjM3MywxMTM2MjI0MzAzXX0=
 -->
