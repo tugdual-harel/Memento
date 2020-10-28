@@ -107,7 +107,7 @@ array1 = (array2 + array3).flatten
     when condition
 
     else
-      
+
     end
 ```
 * Mode édition postgresql
@@ -139,6 +139,7 @@ array1 = (array2 + array3).flatten
 ```
 * Génération d'un CSV
  * Dans models/product_color.rb
+
  ```ruby
  def self.to_csv(product_type_name = nil)
     attributes = %w{reference product_type_title product_name}
@@ -172,6 +173,7 @@ array1 = (array2 + array3).flatten
     end
   end
 ```
+
  * Dans controller/product_colors_controller.rb
  ```ruby
  def index
@@ -1296,9 +1298,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbLTYyNTE1MDE2MSwtMTQ0OT
-QyMjE3MiwyMDUzNTI4MDEzLC00OTc3OTg3NDksMTc4MzkwOTEz
-LDE4OTM2NDQxMjQsLTE4NDY4NjU0NzEsLTg1NDg4MjY3NiwtMT
-MzODk2NTU5OCwtNTM3MjM5NTU3LC0xNTkyNTY2MzczLDExMzYy
-MjQzMDNdfQ==
+b25tYXJrXG4iLCJoaXN0b3J5IjpbLTIwMjg0MjExMDEsLTE0ND
+k0MjIxNzIsMjA1MzUyODAxMywtNDk3Nzk4NzQ5LDE3ODM5MDkx
+MywxODkzNjQ0MTI0LC0xODQ2ODY1NDcxLC04NTQ4ODI2NzYsLT
+EzMzg5NjU1OTgsLTUzNzIzOTU1NywtMTU5MjU2NjM3MywxMTM2
+MjI0MzAzXX0=
 -->
