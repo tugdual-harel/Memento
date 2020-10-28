@@ -17,19 +17,19 @@
 
 ## Liens
 * Stack Edit
-[https://stackedit.io/app#](https://stackedit.io/app#){.btn .btn-default}
+[https://stackedit.io/app#](https://stackedit.io/app#)
 * Memento online
-[https://denikine.github.io/Memento/](https://denikine.github.io/Memento/){.btn .btn-sucess}
+[https://denikine.github.io/Memento/](https://denikine.github.io/Memento/)
 * Mediabox
-[https://mediabox.2-ride.com/dashboards/products](https://mediabox.2-ride.com/dashboards/products){.btn .btn-primary}
+[https://mediabox.2-ride.com/dashboards/products](https://mediabox.2-ride.com/dashboards/products)
 * Mediabox Github
-[https://github.com/bsignoret2/2ride-mediabox](https://github.com/bsignoret2/2ride-mediabox){.btn .btn-default}
+[https://github.com/bsignoret2/2ride-mediabox](https://github.com/bsignoret2/2ride-mediabox)
 * Convert HTML to HAML
-[https://htmltohaml.com/](https://htmltohaml.com/){.btn .btn-info}
+[https://htmltohaml.com/](https://htmltohaml.com/)
 * Ultimate Website Generator
-[https://webcode.tools/](https://webcode.tools/){.btn .btn-warning}
+[https://webcode.tools/](https://webcode.tools/)
 * GoFile
-[https://gofile.io/uploadFiles](https://gofile.io/uploadFiles){.btn .btn-default}
+[https://gofile.io/uploadFiles](https://gofile.io/uploadFiles)
 
 ---------------------------------
 
@@ -1191,7 +1191,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbLTIwNDM4MjQ3NjIsMjA1Mz
+b25tYXJrXG4iLCJoaXN0b3J5IjpbLTE0NDk0MjIxNzIsMjA1Mz
 UyODAxMywtNDk3Nzk4NzQ5LDE3ODM5MDkxMywxODkzNjQ0MTI0
 LC0xODQ2ODY1NDcxLC04NTQ4ODI2NzYsLTEzMzg5NjU1OTgsLT
 UzNzIzOTU1NywtMTU5MjU2NjM3MywxMTM2MjI0MzAzXX0=
