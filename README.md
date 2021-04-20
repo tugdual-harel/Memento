@@ -175,7 +175,7 @@ array1 = (array2 + array3).flatten
 ```
 
  * Dans controller/product_colors_controller.rb
- ```ruby
+ ````ruby
  def index
     @product_colors = ProductColor
     @product_colors = @product_colors.where(product_id: Product.where(brand_id: Brand.find_by(name: params[:brand]).id).pluck(:id)) if params[:brand].present?
@@ -192,6 +192,7 @@ array1 = (array2 + array3).flatten
  ```
  * Dans config/sidekiq.yml
  ajouter `csv-export` dans la liste des queues
+ 
  * Dans products.html.haml
  ```haml
  %tr.d-flex
@@ -199,7 +200,7 @@ array1 = (array2 + array3).flatten
     %td= link_to "Product Size", product_sizes_path(format: "csv", brand_name: params[:brand_name], product_type_name: params[:product_type_name], visible_on_mediabox: params[:visible_on_mediabox], visible_on_b2c: params[:visible_on_b2c], visible_on_b2b: params[:visible_on_b2b], visible_on_digital_catalog: params[:visible_on_digital_catalog]), class: "btn btn-primary btn-sm"
     %td= link_to "Product Color", product_colors_path(format: "csv", brand_name: params[:brand_name], product_type_name: params[:product_type_name], visible_on_mediabox: params[:visible_on_mediabox], visible_on_b2c: params[:visible_on_b2c], visible_on_b2b: params[:visible_on_b2b], visible_on_digital_catalog: params[:visible_on_digital_catalog]), class: "btn btn-primary btn-sm"
     %td= link_to "Export in FTP ProductColorPicture", dashboards_products_path(brand_name: params[:brand_name], product_type_name: params[:product_type_name], display_product_features: params[:display_product_features], display_sizes: params[:display_sizes], visible_on_mediabox: params[:visible_on_mediabox], visible_on_b2c: params[:visible_on_b2c], visible_on_b2b: params[:visible_on_b2b], visible_on_digital_catalog: params[:visible_on_digital_catalog], export_product_color_assets: true), class: "btn btn-primary btn-sm"
-  ```
+  ````
 
 ### Cheat Sheet 1
 * Nouvelle application
@@ -531,6 +532,12 @@ string[position]
 ```ruby 
 
 ```
+-------------------------
+
+## Langage C
+
+
+
 
 --------------------
 
@@ -1298,9 +1305,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1FTUVOVE9cbmF1dGhvcj
 ogVHVnZHVhbFxudGFnczogJ21lbWVudG8sIHJ1YnksIHNxbCwg
 bWFya2Rvd24sIGh0bWwsIGNzcywgcGhwJ1xuc3RhdHVzOiBpbi
 Bwcm9ncmVzc1xuZXh0ZW5zaW9uczpcbiAgcHJlc2V0OiBjb21t
-b25tYXJrXG4iLCJoaXN0b3J5IjpbLTIwMjg0MjExMDEsLTE0ND
-k0MjIxNzIsMjA1MzUyODAxMywtNDk3Nzk4NzQ5LDE3ODM5MDkx
-MywxODkzNjQ0MTI0LC0xODQ2ODY1NDcxLC04NTQ4ODI2NzYsLT
-EzMzg5NjU1OTgsLTUzNzIzOTU1NywtMTU5MjU2NjM3MywxMTM2
-MjI0MzAzXX0=
+b25tYXJrXG4iLCJoaXN0b3J5IjpbMTk2OTI1NDIsLTIwMjg0Mj
+ExMDEsLTE0NDk0MjIxNzIsMjA1MzUyODAxMywtNDk3Nzk4NzQ5
+LDE3ODM5MDkxMywxODkzNjQ0MTI0LC0xODQ2ODY1NDcxLC04NT
+Q4ODI2NzYsLTEzMzg5NjU1OTgsLTUzNzIzOTU1NywtMTU5MjU2
+NjM3MywxMTM2MjI0MzAzXX0=
 -->
